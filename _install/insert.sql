@@ -17,7 +17,7 @@ INSERT INTO projects (owner, title, start_date, duration, amount) VALUES
 INSERT INTO projects (owner, title, start_date, duration, amount) VALUES
 ('stephan_bressan@comp.nus.edu.com', 'Crowdfunding database', '2016-09-23', 3, 10);
 
-INSERT INTO fundings (id, p_id, funder, amount) VALUES
-(DEFAULT, 1, 'huawei@huawei.com', 1000);
-INSERT INTO fundings (id, p_id, funder, amount) VALUES
-(DEFAULT, 2, 'lmljanice@comp@nus.edu.com', 550);
+INSERT INTO fundings (p_id, funder, amount) VALUES
+(1, 'huawei@huawei.com', 1000);
+INSERT INTO fundings (p_id, funder, amount) VALUES
+(2, 'lmljanice@comp@nus.edu.com', 550);
